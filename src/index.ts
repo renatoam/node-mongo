@@ -1,1 +1,4 @@
-console.log('arquivo rodando');
+import { App } from "./app";
+
+require('dotenv').config()
+new App().getApp()
